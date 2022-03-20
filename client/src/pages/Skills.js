@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import Node from '../assets/node.png';
-import Javascript from '../assets/javascript.png';
-import ReactJS from '../assets/react.png';
-import Github from '../assets/github.png';
-import Css from '../assets/css.png';
-import Html from '../assets/html.png';
+import Node from "../assets/node.png";
+import Javascript from "../assets/javascript.png";
+import ReactJS from "../assets/react.png";
+import Github from "../assets/github.png";
+import Css from "../assets/css.png";
+import Html from "../assets/html.png";
 
 const Skills = () => {
   return (
@@ -16,7 +16,7 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#023e7d]  ">
             Skills
           </p>
-          <p className="my-4 text-2xl">// Frameworks I used to worked with.</p>
+          <p className="my-4 text-2xl">Frameworks I used to worked with.</p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#212529] hover:scale-110 duration-500 cursor-pointer">

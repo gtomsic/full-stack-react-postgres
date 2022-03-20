@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
@@ -15,7 +15,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="my-4  text-gray-300">
-            // Submit the form below or shoot me a an email -
+            Submit the form below or shoot me a an email -
             gabriel@gabrieltomsic.com
           </p>
         </div>

@@ -11,7 +11,9 @@ const Work = () => {
     { name: "Social Network", image: work2 },
     { name: "Personal Project", image: work3 },
   ];
-  const renderCard = images.map((item) => <WorkCard project={item} />);
+  const renderCard = images.map((item) => (
+    <WorkCard project={item} key={item.image} />
+  ));
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#212529]">
@@ -20,7 +22,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#023e7d] ">
             Work
           </p>
-          <p className="my-6 text-2xl">// Check some of my recent work</p>
+          <p className="my-6 text-2xl">Check some of my recent work</p>
         </div>
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4">
           {renderCard}
